@@ -1,0 +1,61 @@
+.bloco{
+    border: #3498db solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    margin: 0 1%;
+    background-color: white;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.titulobloco{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    border-bottom: grey solid 1px;
+}
+
+.imgbloco{
+    width: 60%;
+    margin: 1% 10%;
+}
+
+.divimg{
+    text-align: center;
+    width: 100%;
+}
+
+.divtexto{
+    text-align: center;
+    margin: 1% 5%;
+    width: 100%;
+}
+
+.progress-bar{
+    height: 15px;
+    background-color: #777;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    position: relative;
+}
+
+.progress{
+    content: "";
+    width: 25%;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}

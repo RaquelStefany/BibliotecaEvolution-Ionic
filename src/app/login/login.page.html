@@ -1,0 +1,39 @@
+<ion-content>
+  <main id="main">
+
+    <section id="team" class="team section-bg">
+        <div class="wrapper fadeInDown">
+            <div id="formContent" class="login">
+                
+                <a href="/login">
+                    <h2 class="active"> Entrar </h2>
+                </a>
+                <a href="/cadastro">
+                    <h2 class="inactive underlineHover"> Cadastrar </h2>
+                </a>
+
+                <form action="/home">
+                    <br>
+                    <label class="labelf">Email:</label>
+                    <br>
+                    <input type="email" class="fadeIn second" name="email" placeholder="Digite seu email">
+                    <br>
+                    <br>
+                    <label class="labelf">Senha:</label>
+                    <br>
+                    <input type="password" class="fadeIn third" name="senha" placeholder="Digite sua senha">
+                    <input type="submit" name="logarse" class="fadeIn fourth" value="Iniciar Sessão" [routerLink]="['/home']">
+                </form>
+
+                <div id="formFooter">
+                <a class="underlineHover" href="/login">Esqueceu sua senha?</a>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+  </main>
+
+</ion-content>

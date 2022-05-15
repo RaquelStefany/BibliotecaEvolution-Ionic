@@ -1,0 +1,7 @@
+{
+  "name": "BibliotecaEvolution",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

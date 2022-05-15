@@ -1,0 +1,44 @@
+<ion-content>
+  <main id="main">
+
+    <section id="team" class="team section-bg">
+        <div class="wrapper fadeInDown">
+            
+            <div id="formContent" class="cadastro">
+
+                <a href="/login">
+                    <h2 class="inactive underlineHover"> Entrar </h2>
+                </a>
+                <a href="/cadastro">
+                    <h2 class="active"> Cadastrar </h2>
+                </a>
+
+                <form action="/home"  enctype="multipart/form-data">
+                    <br>
+                    <label class="labelf">Nome:</label>
+                    <br>
+                    <input type="text" class="fadeIn second" name="nome" placeholder="Digite seu nome">
+                    <br>
+                    <br>
+                    <label class="labelf">Email:</label>
+                    <br>
+                    <input type="email" class="fadeIn second" name="email" placeholder="Digite seu email">
+                    <br>
+                    <br>
+                    <label class="labelf">Senha:</label>
+                    <br>
+                    <input type="password" class="fadeIn third" name="senha" placeholder="Digite sua senha">
+                    <input type="submit" name="cadastrarse" class="fadeIn fourth" value="Cadastrar-Se" [routerLink]="['/home']">
+                </form>
+
+                <div id="formFooter">
+                <a class="underlineHover" href="/cadastro">Esqueceu sua senha?</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  </main>
+
+</ion-content>
